@@ -1,0 +1,52 @@
+html, body {
+    color: lightgray;
+}
+
+.page-title{
+    color: rgb(239, 79, 28);
+}
+
+body{
+    background: linear-gradient(to bottom right, #F25D9C, #590D82) no-repeat;
+}
+
+.main{
+    background-color: rgb(72, 46, 132);
+}
+
+aside{
+    background-color: rgb(64, 33, 129);
+}
+
+header{
+    background-color: rgb(64, 33, 129);
+    border-bottom: gray solid 1px;
+}
+
+.activate{
+    background-color: rgb(72, 46, 132);
+}
+
+.contacts{
+    border-top: rgb(64, 33, 129) solid 2px;
+}
+
+.ava{
+    border: gray solid 1px;
+}
+
+title{
+    color: gray;
+}
+
+.fact{
+    border: rgb(233, 62, 138) solid 1px;
+}
+
+.soft-skills li, .hard-skills li{
+    border-left: 10px solid #f05d22;
+    box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+    -2px -2px 5px 0 rgba(0,0,0,.1),
+    2px 2px 5px 0 rgba(0,0,0,.1),
+    -2px 2px 5px 0 rgba(0,0,0,.1);
+}

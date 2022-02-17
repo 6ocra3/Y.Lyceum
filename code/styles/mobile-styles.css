@@ -1,0 +1,103 @@
+@media all and (max-width: 500px){
+    .page-title{
+        display: none;
+    }
+    .main {
+        width: 90%;
+        height: 90%;
+        grid-template-columns: 1fr 70px;
+        border-radius: 30px 30px 30px 30px;
+    }
+
+    header{
+        width: 100%;
+        height: 60px;
+        grid-column: span 1;
+        border-radius: 0 30px 0 0;
+        border-bottom: gray solid 1px;
+        overflow: auto;
+        overflow-y: hidden;
+    }
+    .menu-img{
+        margin-top: 12px;
+    }
+
+    aside{
+        height: 60px;
+        width: 100%;
+        border-radius: 30px 0 0 0;
+        border-bottom: gray solid 1px;
+        order: -1;
+        overflow: auto;
+        overflow-y: hidden;
+    }
+    .navigation-list{
+        margin: 0 0 0 10px;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 60px 60px 60px;
+        justify-content: space-between;}
+    li{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        align-self: center;
+    }
+    .side-bar{
+        margin-left: 10px;
+        margin-bottom: 0;
+        display: grid;
+        grid-template-columns: 60px 220px;
+    }
+    .theme{
+        margin-right: 10px;
+    }
+    .ava{
+        grid-row: span 3;
+    }
+
+    .profile-page, .skills-page, .letter-page{
+        grid-column: span 2;
+        overflow: auto;
+    }
+    .bio{
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .contacts{
+        grid-template-columns: 1fr;
+    }
+    .figure{
+        margin: 0 0 10px 0;
+    }
+    .sec-name{
+        grid-column: span 1;
+        margin-top: 10px;
+    }
+    .email{
+        grid-column: span 1;
+    }
+    .soft-skills, .hard-skills {
+        padding: 0;
+    }
+    .soft-title, .hard-title{
+        padding: 5px 0 20px 30px;
+    }
+    .soft-skills-span{
+        margin: 0 5px 0 5px;
+        padding: 10px 20px 20px 20px;
+    }
+
+    .hard-skills-span{
+        margin: 0 5px 0 5px;
+        padding: 10px 20px 20px 20px;
+    }
+
+
+
+    .hidden{
+        display: none;
+    }
+
+
+
+}

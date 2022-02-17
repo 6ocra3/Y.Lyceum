@@ -1,0 +1,176 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+.main {
+     width: 850px;
+     height: 550px;
+     display: grid;
+     grid-template-columns: 60px 790px;
+     border-radius: 30px;
+}
+/*Header*/
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 60px;
+    grid-column: span 2;
+    border-radius: 30px 30px 0 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.side-bar{
+     margin-bottom: 72px;
+}
+.page-title{
+     margin: 0;
+     margin-top: auto;
+     padding-left: 20px;
+}
+
+.button{
+     border: none;
+     background: none;
+     cursor: pointer;
+     padding: 0;
+     margin: 0;
+     width: 60px;
+     height: 60px;
+}
+.img{
+     width: 40px;
+     height: 40px;
+
+}
+.menu-img{
+    margin: auto;
+}
+aside {
+    margin: 0;
+    padding: 0;
+    height: 489px;
+    width: 60px;
+    border-radius: 0 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navigation-list{
+     margin: 0;
+     padding: 0;
+}
+.link{
+    padding: 10px;
+}
+.bio{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.contacts{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+.ava{
+    height: 150px;
+    border-radius: 50%;
+    grid-row: span 2;
+}
+.figure{
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+.title{
+    font-weight: normal;
+    padding: 0 0 5px 0;
+    margin: 0;
+}
+.fact{
+    padding: 10px;
+}
+.sec-name{
+    grid-column: span 2;
+}
+
+.email{
+    grid-column: span 2;
+}
+.skill{
+    padding: 0;
+    margin: 0;
+}
+.skills-page{
+    padding: 20px 10px 10px 10px;
+    display: block;
+}
+li{
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 3px;
+    padding: 0;
+    align-self: center;
+}
+.soft-skills, .hard-skills {
+    list-style: none;
+    padding: 0 0 0 30px;
+    margin:0;
+}
+.soft-skills li, .hard-skills li {
+    font-family: "Trebuchet MS", "Lucida Sans";
+    padding: 7px 20px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: 0.3s all linear;
+}
+.soft-title, .hard-title{
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+.hard-skills-span{
+    display: block;
+    padding: 20px 20px 20px;
+    margin: 0;
+}
+.soft-skills-span{
+    display: block;
+    margin: 0;
+    padding: 10px 20px 100px 20px;
+}
+
+.letter-page{
+     overflow: auto;
+}
+
+
+.article-part{
+    padding: 0;
+    margin: 10px;
+    text-indent: 25px;
+    text-align:justify
+}
+article{
+    margin: 30px 30px 20px 10px;
+}
+
+
+.theme {
+    display: block;
+    margin-left: auto;
+}
+.hidden{
+    display: none;
+}
